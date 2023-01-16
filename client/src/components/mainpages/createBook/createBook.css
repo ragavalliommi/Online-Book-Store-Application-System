@@ -1,0 +1,38 @@
+.create_book{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.create_book label{
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #EB6B4E;
+    font-weight: 700;
+}
+.create_book form{
+    max-width: 500px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+}
+.create_book form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+.create_book form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+}
+.create_book form button{
+    width: 200px;
+    height: 40px;
+    background: #17A589;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
